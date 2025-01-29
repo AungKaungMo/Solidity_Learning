@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Testing.sol": "ExampleWrapAround"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Testing.sol": {
+			"keccak256": "0x8d26bd1478930c58b58811ad18d044601250eee36c1d0897327ae9c7aa736e9f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d804e26c4b814961a9743c9ace6a5339b43260ca62a590fb34860b2fed5f3ff4",
+				"dweb:/ipfs/Qmba4mt4aGMzM3bSixPYVkcyYM7sKZC3sLGt668Kke4hHo"
+			]
+		}
+	},
+	"version": 1
+}

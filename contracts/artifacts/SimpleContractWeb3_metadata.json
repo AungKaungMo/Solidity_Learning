@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleContractWeb3.sol": "SimpleContractWeb3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleContractWeb3.sol": {
+			"keccak256": "0xe2a801336e3ebf89e4c3e2c43099537d1bc9b35c3d78416d2d7a3a28fa080630",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d0a106815451f7e6fbd8584ad0e37d1fa652a5838aaba25e3121f7c053bf2e5",
+				"dweb:/ipfs/QmNVsDSJxn29V4DicBq8aPAEPbNLX24pCqH1Xr7oarLwKy"
+			]
+		}
+	},
+	"version": 1
+}
