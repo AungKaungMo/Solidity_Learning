@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessenger.sol": "BlockchainMessenger"
+			"contracts/Testing1/BlockchainMessenger.sol": "BlockchainMessenger"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,7 +90,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockchainMessenger.sol": {
+		"contracts/Testing1/BlockchainMessenger.sol": {
 			"keccak256": "0xcf49a9c6b8ab0e96358cbb83e73c5e047e14f4b7a842fe5ca431a988e5779064",
 			"license": "MIT",
 			"urls": [

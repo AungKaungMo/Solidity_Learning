@@ -146,7 +146,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Compare.sol": "Compare"
+			"contracts/Testing1/Compare.sol": "Compare"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -160,7 +160,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Compare.sol": {
+		"contracts/Testing1/Compare.sol": {
 			"keccak256": "0x01329efde34b54b883116e8dbe238cd06e19bf58fe02bf121285af6dd68587c3",
 			"license": "MIT",
 			"urls": [

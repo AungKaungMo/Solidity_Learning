@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "recievedMomey",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Testing2/ExceptionRequire.sol": "ExceptionRequire"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Testing2/ExceptionRequire.sol": {
+			"keccak256": "0x2929303feac4f54ad25b836d070af247d505985485c088a06e7ac52418a40118",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bf716be2974f1f47368c15f10a29ba54b1d9b1086d7de12629e7f1fbf2f4d40",
+				"dweb:/ipfs/QmasLBaiHhgaRdbphMi3RPfG8EKPQPNPP34rog1wNzGgk4"
+			]
+		}
+	},
+	"version": 1
+}
